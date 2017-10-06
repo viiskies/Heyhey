@@ -6,8 +6,35 @@
 	border-top: 8px solid black;
 }
 
-.navbar-toggler {
+.card-body {
+	background-color: #aaa !important;
+	color: #333;
+	border-top-right-radius: 10px;
+	margin-bottom: 20px;
 
+}
+.card-body .btn {
+	display: inline-block;
+	border-radius: 25px;
+	background: linear-gradient(#bfd6e0 , #94baca);
+	border-style: none;
+}
+
+.go-btn {
+	display: inline-block;
+	background-color: grey;
+	padding: 8px;
+	border-radius: 100%;
+	margin-left: -15px;
+}
+
+.button-css {
+	position: absolute;
+	left: 50px;
+}
+
+.card {
+	border: none;
 }
 
 .navbar {
@@ -40,6 +67,19 @@
 
 }
 
+.knockout a {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+  color: #333 ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
+
 .menulist {
 -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -71,6 +111,10 @@
 // // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) { 
 	.table-figures {
+		border-style: none !important;
+	}
+
+	.border-window {
 		border-style: none !important;
 	}
 }
